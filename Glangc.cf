@@ -1,0 +1,9 @@
+comment "//" ;
+comment "/*" "*/" ;
+
+ProgramExprs.  Program ::= [Expr] ;
+
+separator Expr ";" ;
+
+ConstTrue.  Expr  ::= "true" ;
+ConstFalse. Expr  ::= "false" ;
